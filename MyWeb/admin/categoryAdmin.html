@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="/css/base.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/css/admin.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <div class="logo_name">BIE</div>
+            </div>           
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class='bx bxs-search'></i>
+                <input type="text" placeholder="Search..." />
+
+            </li>
+            <li>
+               
+                    <i class='bx bx-category-alt'> Product</i>
+                </a>
+            </li>
+            <li>
+                
+                    <i class='bx bxs-user'> User</i>
+                </a>
+            </li>
+            <li>
+                
+                    <i class='bx bx-check-double'> Confirmation</i>
+                </a>
+            </li>
+            <li>
+                
+                    <i class='bx bxs-notepad'> Statistical</i>
+                </a>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <i class='bx bxs-log-out' id="log_out">Log-out</i>
+        </div>
+        <div class="home_content">
+            <div class="text">@RenderBody()</div>
+        </div>
+    </div>
+  
+ 
+</body>
+</html>
