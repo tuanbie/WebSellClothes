@@ -1,16 +1,15 @@
-// ---------------------slider-------------------
+// xữ lý phần sliedr chuyển ảnh
 const header = document.querySelector("header")
 window.addEventListener("scroll",function(){
     x = window.pageYOffset
-    if(x>0)
-    {
+    if(x>0){
         header.classList.add("sticky");
     }
-    else
-    {
+    else{
         header.classList.remove("sticky");
     }
 })
+
 const imgPosition = document.querySelectorAll(".aspect-ratio-169 img")
 const imgContainer = document.querySelector('.aspect-ratio-169')
 const dotItem = document.querySelectorAll(".dot")
@@ -28,6 +27,7 @@ function imgSlide(){
     if (index>=imgNuber) {index=0} 
     slider (index) 
 }
+// xữ lý nút dot chuyển slider
 function slider (index){
     imgContainer.style.left = "-" +index*100+ "%"
     const dotActive = document.querySelector('.active')
