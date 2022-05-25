@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/MyWeb/css/admin.css" />
-    <link rel="stylesheet" href="/MyWeb/css/admin.css" />
+    <link rel="stylesheet" href="/MyWeb/css/base.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
@@ -81,7 +81,23 @@
     </nav>
     <!-- màn hình danh mục -->
     <section class="home">
-      <div class="text">bdfbdfb</div>
+      <div class="text">
+        <div class="admin-conten-right">
+          <div class="admin-conten-right-category_li">
+            <h1>Danh sách sản phẩm</h1>
+            <table>
+              <tr>
+                <th>STT</th>
+                <th>STT</th>
+                <th>STT</th>
+                <th>STT</th>
+                <th>STT</th>
+                <th>STT</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="/MyWeb/js/admin.js"></script>

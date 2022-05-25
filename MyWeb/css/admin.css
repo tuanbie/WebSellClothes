@@ -287,3 +287,32 @@ body.dark .switch::before {
 body.dark .home .text {
   color: var(--text-color);
 }
+/* ===================categoryadmin================ */
+.admin-conten-right{
+  width: 80%;
+  padding:30px 0 0 12px;
+}
+.admin-conten-right-category_add input{
+  height: 30px;
+  width: 200px;
+  padding-left: 12px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.admin-conten-right-category_add button{
+  display: block;
+  margin-top:10px;
+  height:30px;
+  width: 100px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border:none;
+  border-radius: 10px;
+  color:black;
+  font-size:14px;
+  font-weight:bold;
+  transition: all 0.4s ease;
+}
+.admin-conten-right-category_add button:hover{
+  background-color: #99e6cf;
+}
